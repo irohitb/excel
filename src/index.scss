@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.h1 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 11px;
+}
+.in-row {
+  display: flex;
+  flex-direction: row;
+}
+
+input:focus {
+  outline: none !important;
+}
+
+.center-everything {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bold {
+  font-weight: 700;
+}
+.flex {
+  display: flex;
+}

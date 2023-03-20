@@ -1,0 +1,22 @@
+.search-container {
+  display: flex;
+  flex-direction: row;
+  height: 30px;
+  align-items: center;
+  background: #f3f3f3;
+  padding: 7px;
+  border-radius: 5px;
+  margin-bottom: 14px;
+  .search-bar {
+    background-color: inherit;
+    border: 0px;
+    font-size: 12px;
+    width: 100%;
+  }
+  .search-bar::placeholder {
+    opacity: 0.3;
+  }
+  img {
+    margin-right: 12px;
+  }
+}

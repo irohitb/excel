@@ -1,0 +1,21 @@
+.page-container {
+  width: 100vw;
+  display: flex;
+  padding: 34px 236px 0px 149px;
+  .page-content {
+    width: 100%;
+  }
+  .left-margin-5 {
+    margin-left: 5px;
+  }
+  .status-text {
+    align-items: center;
+    justify-content: center;
+    p {
+      font-size: 9px;
+    }
+    .error {
+      color: red;
+    }
+  }
+}

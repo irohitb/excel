@@ -1,0 +1,25 @@
+.sheet-container {
+  .base-cell-properties {
+    width: 33.3%;
+  }
+  .cell-properties {
+    height: 32px;
+  }
+  .sheet-heading {
+    .cell-heading-properties {
+      background-color: #efefef;
+      margin-bottom: 9px;
+    }
+  }
+  .sheets-content {
+    .cell-properties {
+      height: 32px;
+      background-color: #fafafa;
+      margin-top: 4px;
+    }
+    .cell-borders {
+      border-left: 0.379913px solid rgba(0, 0, 0, 0.2);
+      border-right: 0.379913px solid rgba(0, 0, 0, 0.2);
+    }
+  }
+}
